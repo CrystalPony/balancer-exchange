@@ -131,7 +131,7 @@ const Wallet = observer(() => {
         if (injectedLoaded && !injectedActive) {
             return (
                 <Error onClick={toggleWalletDropdown}>
-                    <WarningIcon src="WarningSign.svg" />
+                    <WarningIcon src="./WarningSign.svg" />
                     <ErrorMessage>Wrong Network</ErrorMessage>
                 </Error>
             );

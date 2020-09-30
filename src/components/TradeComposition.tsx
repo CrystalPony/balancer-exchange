@@ -338,7 +338,7 @@ const TradeComposition = observer(() => {
         <Container>
             <Info>
                 <OppositeArrows
-                    src="swap.svg"
+                    src="./swap.svg"
                     onClick={() => {
                         toggleExchangeRate();
                     }}
@@ -350,13 +350,13 @@ const TradeComposition = observer(() => {
                     }}
                 >
                     <UpCarretIcon
-                        src="arrow-bottom.svg"
+                        src="./arrow-bottom.svg"
                         style={{
                             display: tradeCompositionOpen ? 'block' : 'none',
                         }}
                     />
                     <DownCarretIcon
-                        src="dropdown.svg"
+                        src="./dropdown.svg"
                         style={{
                             display: tradeCompositionOpen ? 'none' : 'block',
                         }}

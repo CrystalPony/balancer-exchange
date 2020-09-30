@@ -43,7 +43,7 @@ const GeneralNotification = () => {
     return (
         <Wrapper>
             <Warning>
-                <WarningIcon src="info-general-notification.svg" />
+                <WarningIcon src="./info-general-notification.svg" />
                 <Message>
                     The exchange has been upgraded to use multi-path order
                     routing which improves overall pricing and gas usage. You

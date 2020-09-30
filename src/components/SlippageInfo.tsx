@@ -82,7 +82,7 @@ const SlippageInfo = observer(() => {
 
     const Warning = () => {
         if (slippageIndicator) {
-            return <WarningIcon src="WarningSign.svg" />;
+            return <WarningIcon src="./WarningSign.svg" />;
         } else {
             return <div />;
         }
@@ -117,7 +117,7 @@ const SlippageInfo = observer(() => {
             </SlippageInlineDisplay>
             <div>additional limit</div>
             <Popup
-                trigger={<InfoPopover src="info.svg" />}
+                trigger={<InfoPopover src="./info.svg" />}
                 position="top center"
                 on="hover"
             >
